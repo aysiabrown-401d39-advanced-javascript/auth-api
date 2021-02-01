@@ -27,7 +27,6 @@ app.use(authRoutes);
 app.use('/api/v1', crudRoutesV1);
 app.use('/api/v2', crudRoutesV2);
 
-
 // Catchalls
 app.use(notFound);
 app.use(errorHandler);
